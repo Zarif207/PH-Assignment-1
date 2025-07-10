@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body{
+    color: #F5F8FF;
+}
+
 
                    /* navbar part done */
 
@@ -216,3 +220,90 @@
   color: rgba(37, 36, 50, 0.5);
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+           /* User's Feedback Section */
+
+
+
+.feedback-section {
+  background-color: #ffffff;
+  padding: 100px 20px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.feedback-section h1 {
+  font-size: 2.5rem;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  color: #1a1a1a;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.feedback-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.feedback-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 30px;
+  width: 400px;
+  text-align: left;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.stars {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 20px;
+}
+
+.stars img {
+  width: 20px;
+  height: 20px;
+}
+
+.feedback-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.feedback-card p {
+  font-size: 0.95rem;
+  color: #333;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.reviewer strong {
+  display: block;
+  color: #444;
+  font-size: 0.95rem;
+}
+
+.date {
+  font-size: 0.85rem;
+  color: #aaa;
+}
+
+
+             /* Get In Touch Section  */
