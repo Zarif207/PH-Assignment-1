@@ -307,3 +307,75 @@ body{
 
 
              /* Get In Touch Section  */
+
+
+.contact-section {
+  background-color: #f7f8fc;
+  padding: 100px 20px;
+  font-family: sans-serif;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.contact-title h1 {
+  font-size: 5.5rem;
+  font-weight: 700;
+  padding-top: 130px;
+  color: #111;
+  line-height: 1.2;
+}
+
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-form label {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #111;
+}
+
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  resize: none;
+  padding: 15px;
+  outline: none;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #fff;
+}
+
+.contact-form textarea {
+  min-height: 100px;
+}
+
+.contact-form button {
+  margin-top: 10px;
+  padding: 15px;
+  font-size: 1rem;
+  background-color: #3b3bff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #000000;
+}
