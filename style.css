@@ -9,13 +9,9 @@ body{
     color: #f7f8fc;
 }
 
-                   /* navbar part done */
+                   /* Navbar Section  */
 
 .background-img{
-  /* position: relative;
-  width: 100%;
-  height: auto;
-  overflow: hidden; */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -311,6 +307,66 @@ body{
   color: #aaa;
 }
 
+             /* focus Better Section */
+
+
+.focus-better {
+  background-color: #f5f7fa;
+  padding: 50px 200px;
+  font-family: sans-serif;
+}
+
+.focus-2 {
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.focus-content {
+  text-align: center;
+  max-width: 700px;
+}
+
+.focus-content h1 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.focus-content p {
+  font-size: 1.1rem;
+  color: rgba(37, 36, 50, 0.5);
+  margin-bottom: 30px;
+}
+
+.focus-content button {
+  padding: 14px 30px;
+  font-size: 1rem;
+  background-color: #3b3bff;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-bottom: 40px;
+  transition: background 0.3s;
+}
+
+.focus-content button:hover {
+  background-color: #000000;
+}
+
+.focus-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 30px;
+}
+
+
+
+
              /* Get In Touch Section  */
 
 .contact-section {
@@ -383,7 +439,7 @@ body{
   background-color: #000000;
 }
 
-                  /* footer */
+                  /* Footer Section */
 
 .footer {
   background-color: white;
